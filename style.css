@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Macondo|Nova+Oval');
+
+
+
+div {
+  background-color: orange;
+  padding: 50px;
+  color: white;
+  font-family: sans-serif;
+  width: 200px;
+  border: 3px black dashed;
+  margin: 10px;
+}
+body{
+background-image: url("http://wallpapercave.com/wp/wc1704264.png");
+background-size: 1000px 1000px;
+   background-repeat: no-repeat;
+}
+
+
+h1{
+font-family: 'Nova Oval', cursive;
+
+
+}
+h2{
+  font-family:  'Nova Oval',cursive;
+}
