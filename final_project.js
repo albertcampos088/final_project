@@ -1,8 +1,5 @@
 var namespace = "http://www.w3.org/2000/svg"
-var eminem = makeImage("http://farm9.staticflickr.com/8105/8643101815_bac52e77e5_z.jpg", 100, 85, 50, 30)
-function animateEM(){
-  move(emienm, 0.5,1)
-}
+
 // Write your code here!
 
 
