@@ -1,6 +1,9 @@
 var namespace = "http://www.w3.org/2000/svg"
 
-// Write your code here!
+function image(){
+  makeImage("https://mullingoutcloudwithriha.files.wordpress.com/2015/02/eminem_1previewtemplate_display.png?w=630",
+20, 10, 500, 20)
+}
 
 
 
