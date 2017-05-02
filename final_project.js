@@ -1,26 +1,6 @@
 var namespace = "http://www.w3.org/2000/svg"
 
-function image(){
-  makeImage("https://mullingoutcloudwithriha.files.wordpress.com/2015/02/eminem_1previewtemplate_display.png?w=630",
-20, 10, 500, 20)
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+var mnm = makeImage("http://htc-wallpaper.com/wp-content/uploads/2014/07/Eminem-illustration1.jpg?982602")
 
 // DO NOT EDIT CODE BELOW THIS LINE!
 function getX(shape) {
