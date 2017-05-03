@@ -1,7 +1,8 @@
 var namespace = "http://www.w3.org/2000/svg"
-
-var mnm = makeImage("http://htc-wallpaper.com/wp-content/uploads/2014/07/Eminem-illustration1.jpg?982602")
-
+function makeMNM(){
+ makeImage("http://htc-wallpaper.com/wp-content/uploads/2014/07/Eminem-illustration1.jpg?982602")
+}
+makeMNM()
 // DO NOT EDIT CODE BELOW THIS LINE!
 function getX(shape) {
   if (!shape) {
