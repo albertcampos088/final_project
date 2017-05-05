@@ -1,8 +1,32 @@
 var namespace = "http://www.w3.org/2000/svg"
 function makeMNM(){
- makeImage("http://htc-wallpaper.com/wp-content/uploads/2014/07/Eminem-illustration1.jpg?982602")
+ makeImage("http://htc-wallpaper.com/wp-content/uploads/2014/07/Eminem-illustration1.jpg?982602", 20,20,20,20)
 }
 makeMNM()
+
+
+function mobeMNM(event){
+  event.preventDefault()
+  var x = getX(MNM)
+  if(event.key == "ArrowUp") {
+    move(MNM, 0, -10)
+  }
+   else if (event.key == "ArrowDown"){
+    move(MNM, 0, 10)
+  }
+   else if (event.key == "ArrowLeft"){
+    move(MNM, -10, 0)
+  }
+   else if (event.key =="ArrowRight"){
+   move(MNM, 10, 0)
+ }
+
+  }
+
+
+
+
+
 // DO NOT EDIT CODE BELOW THIS LINE!
 function getX(shape) {
   if (!shape) {
