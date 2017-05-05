@@ -1,24 +1,16 @@
 var namespace = "http://www.w3.org/2000/svg"
 var MNM = makeImage("https://i.ytimg.com/vi/2yJgwwDcgV8/hqdefault.jpg", 100, 85, 50, 30)
 
+function MNM(){
+if(event.key=="a"){
+   move(spongebob,-10,0)
 
-function mobeMNM(event){
-  event.preventDefault()
-  var x = getX(MNM)
-  if(event.key == "ArrowUp") {
-    move(MNM, 0, -10)
-  }
-   else if (event.key == "ArrowDown"){
-    move(MNM, 0, 10)
-  }
-   else if (event.key == "ArrowLeft"){
-    move(MNM, -10, 0)
-  }
-   else if (event.key =="ArrowRight"){
-   move(MNM, 10, 0)
- }
+}else if(event.key=="d"){
+ move(spongebob,10,0)
+}
+}
 
-  }
+
 
 
 
