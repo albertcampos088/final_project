@@ -1,8 +1,5 @@
 var namespace = "http://www.w3.org/2000/svg"
-function makeMNM(){
- makeImage("http://htc-wallpaper.com/wp-content/uploads/2014/07/Eminem-illustration1.jpg?982602", 20,20,20,20)
-}
-makeMNM()
+var MNM = makeImage("https://i.ytimg.com/vi/2yJgwwDcgV8/hqdefault.jpg", 100, 85, 50, 30)
 
 
 function mobeMNM(event){
