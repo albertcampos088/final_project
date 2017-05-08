@@ -3,14 +3,16 @@ var MNM = makeImage("https://i.ytimg.com/vi/2yJgwwDcgV8/hqdefault.jpg", 100, 85,
 
 function MNM(){
 if(event.key=="a"){
-   move(spongebob,-10,0)
+   move(MNM,-10,0)
 
 }else if(event.key=="d"){
- move(spongebob,10,0)
+ move(MNM,10,0)
 }
 }
 
+function mnm(){
 
+}
 
 
 
