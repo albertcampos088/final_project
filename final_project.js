@@ -1,19 +1,9 @@
 var namespace = "http://www.w3.org/2000/svg"
-var MNM = makeImage("https://i.ytimg.com/vi/2yJgwwDcgV8/hqdefault.jpg", 100, 85, 50, 30)
-
 function MNM(){
-if(event.key=="a"){
-   move(MNM,-10,0)
-
-}else if(event.key=="d"){
- move(MNM,10,0)
-}
-}
-
-function mnm(){
+  document.getElementById('olive').setAttribute("style",background-image:
+url('https://lh3.googleusercontent.com/-9qlEnxomOjk/U0hXbB06lgI/AAAAAAAAEYw/Jb9xuDUY4tI/s1600/caricature-music-eminem.png')
 
 }
-
 
 
 
