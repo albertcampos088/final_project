@@ -1,7 +1,6 @@
 var namespace = "http://www.w3.org/2000/svg"
 function MNM(){
- document.getElementById('').setAttribute("style",background-image:)
- url('https://lh3.googleusercontent.com/-9qlEnxomOjk/U0hXbB06lgI/AAAAAAAAEYw/Jb9xuDUY4tI/s1600/caricature-music-eminem.png')
+ document.getElementById('emen').setAttribute("style","background-image: url('https://mullingoutcloudwithriha.files.wordpress.com/2015/02/eminem_1previewtemplate_display.png?w=630');")
 }
 
 
