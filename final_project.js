@@ -3,7 +3,7 @@ function MNM(){
  document.getElementById('emen').setAttribute("style","background-image: url('https://mullingoutcloudwithriha.files.wordpress.com/2015/02/eminem_1previewtemplate_display.png?w=630');")
 }
 function albert(){
-  document.getElementId('push').setAttribute("style","background-image: url('http://ppcorn.com/us/wp-content/uploads/sites/14/2016/03/Eminem-Quotes-PPcorn-2016.jpg');")
+  document.getElementById('push').setAttribute("style","background-image: url('http://ppcorn.com/us/wp-content/uploads/sites/14/2016/03/Eminem-Quotes-PPcorn-2016.jpg');")
 }
 
 
